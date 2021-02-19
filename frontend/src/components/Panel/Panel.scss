@@ -1,0 +1,28 @@
+@mixin absolute_center_panel($width, $height){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -($width / 2);
+    margin-top: -($height / 2);
+    width: $width;
+    height: $height;
+    background: #E6E6E6;
+    border: 1px solid #54626E;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,.1);
+}
+
+html{
+    body{
+        .panel{
+            @include absolute_center_panel(400px, 600px);
+        }
+    }
+}
+
+// .panel{
+//     width: 500px;
+//     height: 600px;
+//     background-color: #FFFFFF;
+//     border-radius: 3px;
+//     border: 1px solid #333333;
+// }
