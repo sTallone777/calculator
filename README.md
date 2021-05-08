@@ -26,7 +26,4 @@ npm start
 ```
 
 ## Preview
-![avatar](./img/back1.JPG)
-![avatar](./img/front1.JPG)
-![avatar](./img/front2.JPG)
-![avatar](./img/back2.JPG)
+![avatar](./img/cal.gif)
